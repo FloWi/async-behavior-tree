@@ -46,7 +46,7 @@ impl Actionable for MyAction {
     }
 }
 
-#[derive(Debug, Clone, Eq, PartialEq)] // Add Clone derive
+#[derive(Debug, Clone, Eq, PartialEq)]
 struct State {
     num_greets: u32,
     num_waves: u32,
